@@ -55,7 +55,7 @@ def check_url(url):
 	url=url.scheme + '://' + url.netloc
 	url1=url + '/defaultroot/upload/fileUpload.controller'
 	try:
-		res1 = requests.post(url1,headers=headers,data=data,proxies=proxies, timeout=5)
+		res1 = requests.post(url1,headers=headers,data=data, timeout=5)
 		print(res1)
 		#res2 = requests.get(url, verify=False, headers=headers,allow_redirects=True, timeout=5)
 		if res1.status_code == 200 and "data" in res1.text:
