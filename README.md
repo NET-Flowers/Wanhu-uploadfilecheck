@@ -1,5 +1,4 @@
-# Wanhu-uploadfilecheck
-万户oa fileUpload.controller任意文件上传漏洞检测
+# 万户oa fileUpload.controller任意文件上传漏洞检测
 /defaultroot/upload/fileUpload.controller
 
 # Fofa指纹
